@@ -1,4 +1,4 @@
-FROM node:boron
+FROM hypriot/rpi-node
 
 RUN groupadd -r sbot && useradd --no-log-init -r -g sbot sbot
 run mkdir -p /home/sbot
