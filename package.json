@@ -1,0 +1,15 @@
+{
+  "name": "scuttlebot-docker",
+  "version": "1.0.0",
+  "description": "Scuttlebot running inside a docker container",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/scuttlebot/bin.js server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "scuttlebot": "10.4.2"
+  },
+  "author": "Hapy0",
+  "license": "GPL-3.0"
+}
